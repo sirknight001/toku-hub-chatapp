@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import GenderCheckbox from './GenderCheckbox'
 import { Link } from 'react-router-dom'
 import useSignup from '../../hooks/useSignup'
+import Footer from '../../components/footer/Footer'
 
 const SignUp = () => {
 
@@ -82,6 +83,7 @@ const SignUp = () => {
             </button>
           </div>
         </form>
+        <Footer />
       </div>
     </div>
   )

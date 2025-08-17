@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import useLogin from '../../hooks/useLogin';
+import Footer from '../../components/footer/Footer';
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -65,37 +66,8 @@ const Login = () => {
           </div>
         </form>
 
-        {/* 👇 Footer Text */}
-        <p className="text-center text-xs text-gray-400 mt-4">
-          © {new Date().getFullYear()} TokuHub by 
-            <span className="font-medium"> Sirk </span>  
-            <a 
-              href="https://github.com/sirknight001" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-blue-400 hover:underline ml-1"
-            >
-              GitHub
-            </a> 
-              <span> |</span>
-            <a 
-              href="https://www.linkedin.com/in/christian-t-243759159/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-blue-400 hover:underline ml-1"
-            >
-              LinkedIn
-            </a>
-            <span> |</span>
-            <a 
-              href="https://sirk-personal-portfolio.netlify.app/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-blue-400 hover:underline ml-1"
-            >
-              Portfolio
-            </a>
-          </p>
+        <Footer />
+
 
       </div>
     </div>
