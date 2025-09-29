@@ -14,7 +14,7 @@ const Footer = () => {
             >
               GitHub
             </a> 
-              <span> |</span>
+              {/* <span> |</span>
             <a 
               href="https://www.linkedin.com/in/christian-t-243759159/" 
               target="_blank" 
@@ -31,7 +31,7 @@ const Footer = () => {
               className="text-blue-400 hover:text-blue-500 ml-1"
             >
               Portfolio
-            </a>
+            </a> */}
         </p>
     </div>
   )
